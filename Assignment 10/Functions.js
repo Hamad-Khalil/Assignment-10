@@ -11,23 +11,23 @@
 // 2. Write a js program to find diameter, circumference and area of circle using functions
 // To find diameter circumference or area of a circle, we need radius
 
-// let radius= 5
+let radius= 5
 
-// function findDiameter(radius) {
-//     let Diameter= 2 * radius   
-//  return Diameter
-// }
-// function findCicurcumference(radius) {
-//     let circumference= 2 * 3.14 * radius
-//     return circumference
-// }
-// function findArea (radius){
-//      area= 3.14 * (radius * radius)
-//      return area
-//  }
-//  console.log( findDiameter(radius));
-//  console.log( findCicurcumference(radius));
-//   console.log( findArea(radius));
+function findDiameter(radius) {
+    Diameter= 2 * radius   
+ return Diameter
+}
+function findCicurcumference(radius) {
+    circumference= 2 * 3.14 * radius
+    return circumference
+}
+function findArea (radius){
+     area= 3.14 * (radius * radius)
+     return area
+ }
+ console.log( findDiameter(radius));
+ console.log( findCicurcumference(radius));
+  console.log( findArea(radius));
 
 // 3. Write a js program to find maximum and minimum between two numbers using functions
 
@@ -51,7 +51,7 @@
 //  function isPrime(n) {
 //     if( n <=2)
 //       return 'This is not prime Number'
-    
+
 //     for (let i = 2; i < n; i++ ){
 //         if (n % i == 0) {
 //             return 'This is not prime Number'
@@ -65,11 +65,36 @@
 
 // Write a js program to find all prime numbers between given interval using functions
 
-let num= 7;
+// let num= 1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+// let primeNum= []
+// function findPrimeNum (numbers){
+//     for (let i = numbers; i < numbers){
+//         if( numbers =>2)
 
-function findPrimeNum (numbers){
-    for (let i = numbers; i < numbers){
-        if( numbers =>2)
-              
-    } else if
-}
+//     } else if
+// }
+// 9. Write a JavaScript program to calculate the area and perimeter of a circle.
+
+// let radius= 3;
+// 1st method
+
+// let area= 3.14 * (radius * radius)
+
+// let perimeter= 2 * 3.14 * radius
+
+// console.log(area, perimeter);
+
+// 2nd Method
+
+// function findArea (radius){
+//     area= 3.14 * (radius * radius)
+//     return area
+// }
+//  console.log(findArea(radius));
+
+//  function findPerimeter(radius) {
+//     perimeter= 2 * 3.14 * radius
+//     return perimeter
+//  }
+
+//  console.log(findPerimeter(radius));
