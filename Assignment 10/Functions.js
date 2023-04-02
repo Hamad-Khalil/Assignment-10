@@ -11,23 +11,23 @@
 // 2. Write a js program to find diameter, circumference and area of circle using functions
 // To find diameter circumference or area of a circle, we need radius
 
-let radius= 5
+// let radius= 5
 
-function findDiameter(radius) {
-    Diameter= 2 * radius   
- return Diameter
-}
-function findCicurcumference(radius) {
-    circumference= 2 * 3.14 * radius
-    return circumference
-}
-function findArea (radius){
-     area= 3.14 * (radius * radius)
-     return area
- }
- console.log( findDiameter(radius));
- console.log( findCicurcumference(radius));
-  console.log( findArea(radius));
+// function findDiameter(radius) {
+//     Diameter= 2 * radius   
+//  return Diameter
+// }
+// function findCicurcumference(radius) {
+//     circumference= 2 * 3.14 * radius
+//     return circumference
+// }
+// function findArea (radius){
+//      area= 3.14 * (radius * radius)
+//      return area
+//  }
+//  console.log( findDiameter(radius));
+//  console.log( findCicurcumference(radius));
+//   console.log( findArea(radius));
 
 // 3. Write a js program to find maximum and minimum between two numbers using functions
 
@@ -63,7 +63,7 @@ function findArea (radius){
 // console.log(isPrime(num));
 
 
-// Write a js program to find all prime numbers between given interval using functions
+// 6.   // Write a js program to find all prime numbers between given interval using functions
 
 // let num= 1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
 // let primeNum= []
@@ -98,3 +98,89 @@ function findArea (radius){
 //  }
 
 //  console.log(findPerimeter(radius));
+
+// 10. Write a js program to find power of any number using function.
+// let base= 2;
+// let exponenet=5;
+// let result=1
+// function findPower (base, exponenet){
+//    for( let i = 1; i<=exponenet; i++){
+//     result= result * base
+//    }
+//    return result
+// }
+// console.log(findPower( base , exponenet));
+
+//11.Write a js program to print all natural numbers between 1 to n using function.
+
+// let givenNum= 10;
+
+// function findNaturalNum(num){
+//     for( let i=1;i<=num; i++ ){
+//         console.log(i);
+//     }
+// }
+// findNaturalNum(givenNum);
+
+// 12. Write a js program to print all even or odd numbers in given range using function.
+
+// function findEvenOdd(startNum, endNum){
+//     for ( let i= startNum; i<= endNum; i++){
+//         if(i % 2 ==0)
+//       {console.log(i, 'are even numbers')} 
+//       else { console.log(i,' are odd numbers');}
+//     }
+// }
+// findEvenOdd(1,10)
+
+
+// 13. Write a js program to find sum of all natural numbers between 1 to n using function.
+
+// function findSumOfNatNum (n){
+//     let temp=0
+//   for( let i= 1; i <= n; i++){
+//    temp= temp+i
+// }return temp
+// }
+// console.log(findSumOfNatNum(5));
+
+
+// 23. Write a js program to find sum of elements of array using function.
+
+// let array= [1,2,3,4,5]
+// function findSumOfArr( array){
+//     let sum=0
+//     for( let i=0; i<= array.length; i++){
+//         sum=sum+i
+//     } return sum
+// }
+// console.log(findSumOfArr(array));
+
+// let num= 1234;
+// let sum= 0;
+// function findSumOfDigits( num){
+//   while( num > 0){
+//     let rem= num % 10
+//     sum= sum + rem
+//     num= parseInt(num/10)
+//   }return sum
+// }
+// console.log( findSumOfDigits(num));
+
+
+// 22. Write a js program to display all array elements using function.
+// let array=[1,2,3,4,5,6,7,8,9,0]
+// for (let index = 0; index <= array.length; index++) {
+//     console.log(index);
+// }
+
+
+// 18. Write a js program to find factorial of any number using function.
+// let num= 5;
+// function findFactorial(n){
+//     let temp=1;
+//     for (let i= n; i>=1; i--){
+//      temp= temp* i
+//     } return temp
+// }
+// console.log(findFactorial(num));

@@ -35,6 +35,7 @@
 // 6. Write a JavaScript function to add specified minutes to a Date object.
 
 // let date = new Date()
+// console.log(date.getMilliseconds());
 // let minutes= 30
 // function addMinutes (date, minutes) {
 //   let sumOfMinutes= date + minutes
@@ -49,13 +50,58 @@
 // if (day= 0) {
 //    console.log("This is weekend");
 // } else {console.log("This is not a weekend");}
+ 
 
-function isWeekend(date) {
-   date.getDay()
-   if (day=0) {
-      console.log("This is weekend");
-   } else{console.log("This is not a weekend");}
-}
-console.log(isWeekend('Nov 15, 2014'));
+// function isWeekend(date) {
+//    let dayOnDate= date.getDay()
+//    if (dayOnDate=0) {
+//       console.log("This is weekend");
+//    } else{console.log("This is not weekend");}
+// }
+// console.log(isWeekend('Nov 15, 2014'));
+
+
+
+// 8. Write a JavaScript function to get difference between two dates in days.  
+
+// let date1= new Date('12/04/2014');
+// let date2= new Date('11/02/2014');
+// var dayInDt1= date1.getTime();
+// var dayInDt2= date2.getTime();
+// var diffInSec= dayInDt1> dayInDt2 ? dayInDt1-dayInDt2 : dayInDt2 - dayInDt1;
+// var diffInDays= diffInSec/86400000
+// console.log(diffInDays);
+
+// 18. Write a JavaScript program to calculate age.
+// let DOB= new Date(2000, 11, 4)
+// let currDate=new Date()
+// let age= currDate.getFullYear() - DOB.getFullYear()
+// console.log(age);
+
+
+// 20. Write a JavaScript function to get a textual representation of a day (three letters, Mon through Sun).
+let date= new Date(2015, 10, 3)
+let dayOnDate= date.getDay()
+// console.log(dayOnDate);
+// do{ console.log("Sun");}while( dayOnDate=0)
+// do{ console.log("Mon");}while( dayOnDate=1)
+do{ console.log("Tue");}while( dayOnDate=2)
+// do{ console.log("Wed");}while( dayOnDate=3)
+// do{ console.log("Thu");}while( dayOnDate=4)
+// do{ console.log("Fri");}while( dayOnDate=5)
+// do{ console.log("Sat");}while( dayOnDate=6)
+
+// 49. Write a JavaScript function to get time differences in years between two dates.
+
+// dt1 = new Date("June 13, 2014 08:11:00");
+// dt2 = new Date("October 19, 2017 11:13:00");
+// function getYearDiff ( date1, date2){
+//    let dat1= date1.getFullYear()
+//    let dat2=date2.getFullYear()
+//    let yearDiff= dat2-dat1
+//    return yearDiff
+// }
+// console.log( getYearDiff(dt1, dt2));
+
 
 
