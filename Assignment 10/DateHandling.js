@@ -80,16 +80,41 @@
 
 
 // 20. Write a JavaScript function to get a textual representation of a day (three letters, Mon through Sun).
-let date= new Date(2015, 10, 3)
-let dayOnDate= date.getDay()
-// console.log(dayOnDate);
+// let date= new Date(2015, 10, 3)
+// let dayOnDate= date.getDay()
+
 // do{ console.log("Sun");}while( dayOnDate=0)
 // do{ console.log("Mon");}while( dayOnDate=1)
-do{ console.log("Tue");}while( dayOnDate=2)
+// do{ console.log("Tue");}while( dayOnDate=2)
 // do{ console.log("Wed");}while( dayOnDate=3)
 // do{ console.log("Thu");}while( dayOnDate=4)
 // do{ console.log("Fri");}while( dayOnDate=5)
 // do{ console.log("Sat");}while( dayOnDate=6)
+
+// 27. Write a JavaScript function to get a short textual representation of a month, three letters (Jan through Dec).   
+
+let dt = new Date(2015,2, 1); 
+// let dtt1=dt.getMonth() 
+// console.log(dtt1);
+function monthName(date){
+    let numOfMonth= date.getMonth()
+    if ( numOfMonth=1){console.log("Jan");} else if ( numOfMonth=2){
+        console.log("Feb");
+    }
+    }
+    // return numOfMonth
+console.log(monthName(dt));
+
+
+// 28. Write a JavaScript function to get a full numeric representation of a year (4 digits).
+
+// let dt = new Date(2015, 10, 1) 
+// function fullYear(date){
+//     console.log(date.getFullYear());
+// }
+// fullYear(dt)
+
+
 
 // 49. Write a JavaScript function to get time differences in years between two dates.
 
