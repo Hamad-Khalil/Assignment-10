@@ -1,33 +1,20 @@
 // 1. Write a JavaScript program to list the properties of a JavaScript object
 
-// var student = {
-
-// name : "David Rayy",
-
-// sclass : "VI",
-
-// rollno : 12 };
-
-// // for( let i=property, )
-
-// for(let property in student){
-//     console.log(property);
-// }
 
 // 3. Write a JavaScript program to get the length of a JavaScript object.   
 
-// var student = {
+var student = {
 
-// name : "David Rayy",
+name : "David Rayy",
 
-// sclass : "VI",
+sclass : "VI",
 
-// rollno : 12 };
+rollno : 12 };
 
 
-// var length= Object.keys(student).length;
+var length= Object.keys(student).length;
 
-// console.log(length);
+console.log(length);
 
 
 
