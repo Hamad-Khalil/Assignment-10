@@ -343,17 +343,17 @@
 
 // 27. Write a JavaScript function to get a short textual representation of a month, three letters (Jan through Dec).   
 
-let dt = new Date(2015,2, 1); 
-// let dtt1=dt.getMonth() 
-// console.log(dtt1);
-function monthName(date){
-    let numOfMonth= date.getMonth()
-    if ( numOfMonth=1){console.log("Jan");} else if ( numOfMonth=2){
-        console.log("Feb");
-    }
-    }
-    // return numOfMonth
-console.log(monthName(dt));
+// let dt = new Date(2015,2, 1); 
+// // let dtt1=dt.getMonth() 
+// // console.log(dtt1);
+// function monthName(date){
+//     let numOfMonth= date.getMonth()
+//     if ( numOfMonth=1){console.log("Jan");} else if ( numOfMonth=2){
+//         console.log("Feb");
+//     }
+//     }
+//     // return numOfMonth
+// console.log(monthName(dt));
 
 
 // 28. Write a JavaScript function to get a full numeric representation of a year (4 digits).
@@ -373,11 +373,16 @@ console.log(monthName(dt));
 // dt = new Date(1989, 10, 1);
 
 // console.log(sort_year(dt));
-
 // "89"
 
+// let date= new Date(2002,11,11)
 
-
+// function yearInDate(date){
+//     let year= date.getFullYear()
+//     let yearToStr= year.toString()
+//     console.log(yearToStr.slice(2,4))
+//  }
+// yearInDate(date)
 // 30. Write a JavaScript function to get lowercase Ante meridiem and Post meridiem.   
 
  
